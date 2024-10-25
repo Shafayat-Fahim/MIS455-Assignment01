@@ -2,7 +2,8 @@
 body {
     font-family: sans-serif;
     background-color: #f0f0f0;
-    margin: 0;
+    margin: 5;
+    margin-bottom: 0in;
     padding: 0;
     color: #333;
 }
@@ -88,7 +89,13 @@ h1 {
     margin-left: 40%;
 }
 
+.ian1 {
+    margin-left: 41%;
+}
 
+.ian2 {
+    margin-left: 38%;
+}
 
 /* Paragraph Styles */
 .paragraph1 {
