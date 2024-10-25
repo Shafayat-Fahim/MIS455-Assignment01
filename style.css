@@ -39,3 +39,30 @@ h1 {
     text-align: center;
 }
 
+/* Image Styles */
+.cric-match {
+    width: 50%;
+    margin-left: 375px;
+}
+
+.cric-field {
+    width: 50%;
+    margin-left: 375px;
+}
+
+/* Paragraph Styles */
+.paragraph1 {
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+}
+
+.paragraph2 {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+}
