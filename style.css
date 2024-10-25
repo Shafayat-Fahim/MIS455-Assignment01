@@ -126,9 +126,79 @@ h1 {
     text-align: center;
 }
 
+.flex-style {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
+.grid-style {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
 /* External Link Style */
 .external-link {
     text-align: center;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
+}
+
+/* Flex Container */
+.flex-container {
+    display: flex;
+    gap: 20px;  
+}
+
+.flex-container div {
+    padding: 20px;
+}
+
+.flex-container .player1 {
+    background-color: green;
+}
+
+.flex-container .player2 {
+    background-color: green;
+}
+
+.flex-container .player3 {
+    background-color: green;
+}
+
+/* Grid Container  */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: 300px;
+}
+  
+.grid-container div {
+    margin:10px;
+}
+
+.grid-container .gplayer1 {
+     border: 3px solid rgb(151, 107, 113);
+      background-color: bisque;
+}
+
+.grid-container .gplayer2 {
+    border: 3px solid rgb(151, 107, 113);
+     background-color: bisque;
+}
+
+.grid-container .gplayer3 {
+    border: 3px solid rgb(151, 107, 113);
+     background-color: bisque;
+}
+
+.grid-container .gplayer4 {
+    border: 3px solid rgb(151, 107, 113);
+     background-color: bisque;
+}
+
+.grid-container .gplayer5 {
+    border: 3px solid rgb(151, 107, 113);
+     background-color: bisque;
 }
