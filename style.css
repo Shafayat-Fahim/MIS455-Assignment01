@@ -50,6 +50,16 @@ h1 {
     margin-left: 375px;
 }
 
+.don1 {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.don2 {
+    width: 20%;
+    margin-left: 40%;
+}
+
 /* Paragraph Styles */
 .paragraph1 {
     font-family: "Oxanium", sans-serif;
@@ -65,4 +75,11 @@ h1 {
     font-weight: <weight>;
     font-style: normal;
     text-align: center;
+}
+
+/* External Link Style */
+.external-link {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
 }
