@@ -33,3 +33,9 @@ li a {
 li a:hover:not(.active) {
     background-color: #6a6a6a;
 }
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+}
+
